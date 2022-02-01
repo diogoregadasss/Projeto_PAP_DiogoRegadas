@@ -1,0 +1,18 @@
+
+
+h1 {
+    position: relative;
+    animation: aparece 2s;
+    text-align: center;
+}
+
+
+@keyframes aparece {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
